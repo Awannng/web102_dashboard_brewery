@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+.title img {
+  width: 100px;
+  height: 100px;
+}
+
+/* cards container */
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  margin-top: 20px;
+}
+
+/* card info */
+.card-content {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px rgb(199, 126, 25);
+  width: 300px;
+}
+.card-content h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.card-content p {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.search{
+  display: flex;
+  justify-self: center;
+  margin: 20px;
+  gap: 20px;
+}
+
+input {
+  width: 60%;
+  padding: 5px;
+  width: 300px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+/* use grids to make 4 equal cols and equal spacing */
+.data-titles {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+  font-weight: bold;
+}
+.brew-info {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.brew-info img {
+  width: 25px;
+  height: 25px;
+}
