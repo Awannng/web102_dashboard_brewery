@@ -16,6 +16,7 @@
   height: 100px;
 }
 
+/* ListingPage */
 /* cards container */
 .cards {
   display: flex;
@@ -43,7 +44,7 @@
   font-size: 1.5rem;
 }
 
-.search{
+.search {
   display: flex;
   justify-self: center;
   margin: 20px;
@@ -88,4 +89,31 @@ a {
 .brew-info img {
   width: 25px;
   height: 25px;
+}
+
+/* DetailsPage */
+.details-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.detail-item {
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(199, 126, 25);
+}
+
+.detail-item h3 {
+  margin-top: 0;
+  padding-bottom: 5px;
+  color: #333;
 }

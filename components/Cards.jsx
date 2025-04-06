@@ -4,7 +4,7 @@ const Cards = ({ title, count }) => {
   return (
     <div className="card-content">
       <h3>{title}</h3>
-      <p>{count.length}</p>
+      <p>{count}</p>
     </div>
   );
 };
