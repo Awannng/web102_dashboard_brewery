@@ -91,6 +91,23 @@ a {
   height: 25px;
 }
 
+.all-container {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+}
+
+.list {
+  width: 60%;
+}
+
+.charts {
+  margin-top: 20px;
+  position: sticky;
+  top: 2em;
+  height: 100vh;
+}
+
 /* DetailsPage */
 .details-container {
   max-width: 800px;
